@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	  <script defer src="// https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+
+    <title>TimeNow | Pricing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    
+  </head>
+  <body>
+    <header class="header  ">
+      <a href="index.html"><img src="Assets/Logo.svg" alt="logo" class="logo"></a>
+        <nav class="main-nav ">
+          <div class="main-nav-list flex">
+            <div class="main-nav-list-left ">
+              <a href="#" class="nav-left main-nav-links">Features</a>
+              <a href="pricing.html" class="main-nav-links nav-left"><strong>Pricing</strong></a>
+            </div>
+            <a href="#" class="main-nav-links pricing-link nav-right btn btn-white">Start Scheduling</a>
+          </div>
+        </nav>
+        <button class="btn-mobile-nav">
+			   <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+			   <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+		    </button>
+      </header>
+    <main>
+    <section class="plans-section">
+      <h1 class="plans-main-heading">Flexible Plans for Everyone.</h1>
+      <p class="plans-main-text">Our plans are made for everyone. Whether you're just starting out on social media, or have been on there for a long time, we have a plan that's right for you.</p>
+        <div class="toggle-switch flex">
+          <span class="billing-monthly"><strong>Billed Monthly</strong></span>
+          <label class="switch">
+            <input type="checkbox" name="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <span class="billing-yearly">Billed Yearly</span>
+        </div>
+      </section>
+      <section class="plans-option-section grid">
+        <div class="plans plan-one">
+          <h2 class="price">$4<span class="month">/mo</span></h2>
+          <p class="plan-text">Perfect plan if you're just starting out.</p>
+          <hr class="hr-line">
+          <ul class="benefits">
+            <li class="benefit-item"><img src="Assets/Checkmark.svg" alt="checkmark"><span class="benefit-text">Linkedin Integration</span></li>
+            <li class="benefit-item"><img src="Assets/Checkmark.svg" alt="checkmark"><span class="benefit-text">Twitter Integration</span></li>
+            <li class="benefit-item"><img src="Assets/Checkmark.svg" alt="checkmark"><span class="benefit-text">Real-time Analytics</span></li>
+          </ul>
+      
+          <button class="btn btn-pricing btn-pricing-one">Subscribe Now</button>
+        </div>
+        <div class="plans plan-two">
+          <h2 class="price">$12<span class="month">/mo</span></h2>
+          <p class="plan-text">Perfect plan if you're heavy user of social media.</p>
+          <hr class="hr-line">
+          <ul class="benefits">
+            <li class="benefit-item"><img src="Assets/Checkmark.svg" alt="checkmark"><span class="benefit-text">Linkedin Integration</span></li>
+            <li class="benefit-item"><img src="Assets/Checkmark.svg" alt="checkmark"><span class="benefit-text">Twitter Integration</span></li>
+            <li class="benefit-item"><img src="Assets/Checkmark.svg" alt="checkmark"><span class="benefit-text">Instagram Integration</span></li>
+            <li class="benefit-item"><img src="Assets/Checkmark.svg" alt="checkmark"><span class="benefit-text">Real-time Analytics</span></li>
+          </ul>
+      
+          <button class="btn btn-pricing">Subscribe Now</button>
+        </div>
+        <div class=" plans plan-three">
+          <h2 class="price">$7<span class="month">/mo</span></h2>
+          <p class="plan-text">Perfect plan if you're just starting out.</p>
+          <hr class="hr-line">
+          <ul class="benefits">
+            <li class="benefit-item"><img src="Assets/Checkmark.svg" alt="checkmark"><span class="benefit-text">Linkedin Integration</span></li>
+            <li class="benefit-item"><img src="Assets/Checkmark.svg" alt="checkmark"><span class="benefit-text">Twitter Integration</span></li>
+          </ul>
+      
+          <button class="btn btn-pricing">Subscribe Now</button>
+        </div>
+      </section>
+    </main>
+    <footer class="section-footer"> 
+      <img class="logo-bottom" src="Assets/Logo.svg">
+      <div class="footer-content flex">
+        <div class="content-left flex">
+          <div class="product">
+            <h3>Product</h3>
+            <a class="btn-links" href="index.html">Homepage</a>
+            <a class="btn-links" href="pricing.html">Pricing</a>
+            <a class="btn-links" href="#">Features</a>
+          </div>
+          <div class="help">
+            <h3>Help</h3>
+            <a class="btn-links" href="#">Live Chat</a>
+            <a class="btn-links" href="#">Send Email</a>
+            <a class="btn-links" href="#">FAQ</a>
+          </div>
+          <div class="company">
+            <h3>Company</h3>
+            <a class="btn-links" href="#">About</a>
+            <a class="btn-links" href="#">Customers</a>
+            <a class="btn-links" href="#">Blog</a>
+          </div>
+        </div>
+      <div class="content-right">
+        <h3>Try TweetNow</h3>
+        <form>
+          <input  class="email-bottom" type="email" name="email" placeholder="Email Address"><a href="#" class="footer-schedule-btn btn ">Start Scheduling</a>
+        </form>
+      </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

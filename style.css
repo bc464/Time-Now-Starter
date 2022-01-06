@@ -1,0 +1,385 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+/*10px/16px = 0.625 = 62.5%*/
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.btn {
+  padding: 2rem 2rem;
+  border-radius: 0.7rem;
+  color: #fff;
+  background-color: #000066;
+}
+.btn-white {
+  color: #fff !important;
+}
+
+/* ******NAVIGATION****** */
+.header {
+  width: 80%;
+  margin: 4rem auto;
+  margin-bottom: 10rem;
+}
+.logo {
+  float: left;
+  margin-right: 5rem;
+}
+.main-nav {
+  align-items: center;
+  gap:  3rem;
+}
+.nav-left {
+  margin-right:  2rem;
+}
+.nav-right {
+  margin-right: 10%;
+  margin-top: -1.6rem;
+}
+.main-nav-list {
+  justify-content: space-between;
+}
+.main-nav-links {
+  text-decoration: none;
+  color: #333;
+  z-index: 1;
+  position: relative;
+}
+.main-nav-links:hover {
+  text-decoration: underline;
+}
+
+/****MOBILE NAVITATION*****/
+.btn-mobile-nav {
+  border: none;
+  float: right;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+.icon-mobile-nav[name="close-outline"]{
+  display: none;
+}
+
+/*  ****HERO SECTION ******* */
+.hero-section {
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  gap:  3rem;
+}
+.hero-left-section {
+  width: 50%;
+}
+.hero-main-heading {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+.hero-main-text {
+  line-height: 1.5;
+  color: #777;
+  margin-bottom: 2rem;
+}
+.start-demo-section {
+  align-items: center;
+  gap:  3rem;
+  margin-bottom: 2rem;
+}
+.start-demo-link {
+  text-decoration: none;
+}
+.start-demo-link:hover {
+  text-decoration: underline;
+}
+.view-demo,
+.learn-more-link {
+  color: #000;
+  font-weight: 700;
+}
+.learn-more-section {
+  gap:  1rem;
+}
+.learn-more {
+  list-style: none;
+  display: flex;
+}
+.learn-more-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.hero-right-section {
+  width: 50%;
+  background-color: lightblue;
+  padding-bottom: 15rem;
+  justify-content: center;
+  padding-top: 17rem;
+  margin-top: -20rem;
+}
+.mockup-img {
+  width: 90%;
+}
+
+/*  ****USER SECTION ******* */
+.users-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  gap: 5rem;
+  align-items: center;
+}
+.user-content-left,
+.user-content-right {
+  width: 50%;
+}
+.users-main-heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.user-img {
+  width: 5rem;
+  height: 5rem;
+}
+.user-text {
+  width: 85%;
+  margin:  0 auto;
+  color: #777;
+}
+.user-text-top {
+  margin-bottom: 2rem;
+}
+
+/*  ****DASHBOARD & DATA SECTION ******* */
+.container {
+  width: 100%;
+  background-color: lightblue;
+  padding: 7rem 0;
+  margin-bottom: 10rem;
+}
+.dashboard-analytics-section {
+  width: 80%;
+  margin:  0 auto;
+  gap:  6rem;
+}
+.dashboard-section,
+.analytics-section {
+  width: 50%;
+}
+.analytics-content {
+  width: 85%;
+  margin: 0 auto;
+}
+.dashboard-content {
+  width: 90%;
+}
+.sub-text {
+  color: darkcyan;
+  margin-bottom: 2rem;
+}
+.main-heading {
+  font-size: 3.3rem;
+  margin-bottom: 2rem;
+}
+.main-text {
+  color: #777;
+  margin-bottom: 4rem;
+}
+
+/*  ****FOOTER SECTION ******* */
+.section-footer {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+.logo-bottom,
+h3 {
+  margin-bottom: 2rem;
+}
+.footer-content {
+  gap:  20rem;
+}
+.content-left {
+  width: 50%;
+  gap:  7rem;
+}
+.content-right {
+  width: 50%;
+  position: relative;
+}
+.btn-links {
+  display: block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #777;
+}
+.btn-links:hover {
+  text-decoration: underline;
+}
+.email-bottom {
+  padding: 2.3rem;
+  width: 80%;
+}
+.footer-schedule-btn {
+  position: absolute;
+  top: 4.5rem;
+  right: 9rem;
+  text-decoration: none;
+}
+.footer-schedule-btn:hover {
+  text-decoration: underline;
+}
+/*****PRICING PAGE******/
+.pricing-link {
+  margin-right: 0;
+}
+.plans-section {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+.plans-main-heading {
+  font-weight: 900;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.plans-main-text {
+  color: #777;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+/****TOGGLE SWITCH****/
+.toggle-switch {
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.billing-yearly {
+  color: #777;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 6rem;
+  height: 3.4rem;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2196F3;
+  -webkit-transition:  .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 2.6rem;
+  width: 2.6rem;
+  left: .4rem;
+  bottom: .4rem;
+  background-color: #fff;
+  -webkit-transition:  .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform:  translateX(2.6rem);
+  -ms-transform: translateX(2.6rem);
+  transform: translateX(2.6rem);
+}
+.slider.round {
+  border-radius: 3.4rem;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/****PLAN OPTIONS*******/
+.plans-option-section {
+  width: 80%;
+  margin: 0 auto;
+  gap: 2rem;
+  margin-bottom: 8rem;
+}
+.plans {
+  border: 1px solid #777;
+  border-radius: .5rem;
+  padding: 3rem;
+}
+.price {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.month {
+  font-size: 2rem;
+  color: #777;
+}
+.plan-text {
+  color: #777;
+  margin-bottom: 3rem;
+}
+.hr-line {
+  border:  1px solid lightgrey;
+  margin-bottom: 3rem;
+  width: 90%;
+}
+.benefits {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap:  1.6rem;
+  margin-bottom: 3rem;
+}
+.benefit-item {
+  display: flex;
+  align-items: center;
+  gap:  1.6rem;
+  line-height: 1.2;
+  color: #777;
+}
+.btn-pricing {
+  width: 90%;
+  font-size: 1.6rem;
+}
+.btn-pricing:hover {
+  text-decoration: underline;
+}
