@@ -28,3 +28,4 @@ If you want more real-time communication, you can visit our community on [Slack]
 
 https://fonts.google.com/specimen/Inter
 # Time-Now-Starter
+![Screenshot 2022-01-06 at 15-36-17 TimeNow Starter](https://user-images.githubusercontent.com/82536545/148391182-2584daca-f1a5-443a-afd5-09e786351db7.png)
